@@ -1,0 +1,58 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    // 1. Creating strings
+    string firstName = "Calvin";
+    string lastName = "Engineer";
+
+    // 2. Combining strings
+    string fullName = firstName + " " + lastName;
+
+    cout << "Full name: " << fullName << endl;
+
+    // 3. String length
+    cout << "Length: " << fullName.length() << endl;
+
+    // 4. Access characters
+    cout << "First letter: " << fullName[0] << endl;
+
+    // 5. Modify a character
+    fullName[0] = 'K';
+    cout << "Modified name: " << fullName << endl;
+
+    // 6. Add text
+    fullName += " Developer";
+    cout << "After adding text: " << fullName << endl;
+
+    // 7. Extract part of a string
+    string part = fullName.substr(0, 7);
+    cout << "Substring: " << part << endl;
+
+    // 8. Search inside a string
+    if(fullName.find("Developer") != string::npos)
+    {
+        cout << "Word found!" << endl;
+    }
+
+    // 9. Compare strings
+    string password = "robot";
+
+    if(password == "robot")
+    {
+        cout << "Access granted" << endl;
+    }
+
+    // 10. User input
+    string userName;
+
+    cout << "Enter your name: ";
+    getline(cin, userName);
+
+    cout << "Hello " << userName << endl;
+
+    return 0;
+}
