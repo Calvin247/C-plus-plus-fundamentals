@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	double a;
+	int b;
+	
+	cout << "Enter the first number: ";
+	
+	cin >> a;
+	
+	cout << "Enter the second number: ";
+	
+	cin >> b;
+	
+	cout << endl;
+	
+	if(a == b)
+		cout << a << " equals " << b << endl;
+	
+	else if(a != b)
+		cout << a << " does not equal " << b << endl;
+	
+	if(a > b)
+		cout << a << " is bigger than " << b << endl;
+
+	else if(a < b)
+		cout << a << " is smaller than " << b << endl;
+		
+	if(a >= b)
+		cout << a << " is bigger than or equal to" << b << endl;		
+		
+	if(a <= b)
+		cout << a << " is smaller than or equal to" << b << endl;
+
+	return 0;	
+	
+}
