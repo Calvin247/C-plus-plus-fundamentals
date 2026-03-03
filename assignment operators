@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x = 10;   // Initial value
+
+    cout << "Initial value: " << x << endl;
+
+    // += operator
+    x += 5;   // x = x + 5
+    cout << "After += 5 : " << x << endl;
+
+    // -= operator
+    x -= 3;   // x = x - 3
+    cout << "After -= 3 : " << x << endl;
+
+    // *= operator
+    x *= 2;   // x = x * 2
+    cout << "After *= 2 : " << x << endl;
+
+    // /= operator
+    x /= 4;   // x = x / 4
+    cout << "After /= 4 : " << x << endl;
+
+    // %= operator
+    x %= 3;   // x = x % 3
+    cout << "After %= 3 : " << x << endl;
+
+    return 0;
+}
