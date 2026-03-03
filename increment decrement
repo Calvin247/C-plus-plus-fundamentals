@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x = 5;   // Starting value
+
+    // POSTFIX INCREMENT
+    cout << "Postfix increment: " << x++ << endl;  
+    // Prints 5, then increases x to 6
+
+    cout << "Value after postfix: " << x << endl;  
+
+    // PREFIX INCREMENT
+    cout << "Prefix increment: " << ++x << endl;  
+    // Increases first (to 7), then prints
+
+    // POSTFIX DECREMENT
+    cout << "Postfix decrement: " << x-- << endl;  
+    // Prints 7, then decreases to 6
+
+    cout << "Value after postfix decrement: " << x << endl;
+
+    // PREFIX DECREMENT
+    cout << "Prefix decrement: " << --x << endl;  
+    // Decreases first (to 5), then prints
+
+    return 0;
+}
