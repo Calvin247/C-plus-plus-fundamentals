@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+    // Initialize myGrade here
+    char myGrade = 'A';
+
+    std::cout << myGrade;
+    
+    return 0;
+}
