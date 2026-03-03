@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    bool isRaining = true;   // A boolean variable that can be true or false
+
+    if (isRaining)           // Check if the value is true
+    {
+        cout << "Take an umbrella." << endl;
+    }
+    else
+    {
+        cout << "Enjoy the sunshine." << endl;
+    }
+
+    return 0;
+}
