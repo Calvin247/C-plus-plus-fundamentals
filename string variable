@@ -1,0 +1,42 @@
+#include <iostream>     // Allows printing to the console
+#include <string>       // Allows use of the string type
+
+int main()
+{
+    std::string carModel = "Motormax";   // Create a string variable storing the car model
+
+    std::cout << carModel << std::endl;  // Output the value of carModel to the console
+
+    return 0;                            // End the program
+}
+
+
+
+
+
+
+or
+
+
+
+
+
+
+
+
+#include <iostream>   // For cout
+#include <string>     // For string
+
+using namespace std;  // Allows us to use cout and string without std::
+
+int main()
+{
+    string carModel = "Motormax";   // Declare a string variable and store text
+
+    cout << carModel << endl;       // Print the value of carModel
+
+    return 0;                       // End program successfully
+}
+
+
+
